@@ -116,7 +116,19 @@ feature/course-api-integration
 - Detail Screen  
 
   ![Dashboard](assets/screenshots/detail.png)
+
+- Add Course
+
+  ![Add](assets/screenshots/add.png)
   
+- Edit Course
+
+  ![Edit](assets/screenshots/add.png)
+
+- Delete Course
+
+  ![Delete](assets/screenshots/delete.png)
+
 ---
 
 ## Author
