@@ -64,6 +64,26 @@ This Flutter application is a multi-screen authentication system with a course d
 
 ---
 
+## API Used
+This project uses JSONPlaceholder API for CRUD operations.
+
+API Base URL:
+https://jsonplaceholder.typicode.com/posts
+
+---
+
+## Documentation Reference
+API documentation followed:
+https://jsonplaceholder.typicode.com/guide
+
+---
+
+## Branch Information
+Feature branch used for submission:
+feature/course-api-integration
+
+---
+
 ## Technologies Used
 - Flutter
 - Dart
