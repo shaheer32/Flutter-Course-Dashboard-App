@@ -1,104 +1,45 @@
-# Flutter Course Dashboard App
-
-## Project Title
-Flutter Course Dashboard App
-
----
+# Flutter Authentication App
 
 ## Student Information
-- Name: Muhammad Farrukh Iqbal
-- Student ID: SE221005
 
----
+**Student Name:** Syed Muhammad Shaheer Kamal
+**Student ID:** Se221026
 
-## Project Description
-This Flutter application is a multi-screen authentication system with a course dashboard. It includes:
+## Project Overview
 
-- User Registration with validation
-- Login system with session persistence
-- Dashboard displaying user info and subjects
-- Subject detail screen with dynamic content
-- Logout functionality
-- Clean architecture using controllers, validators, and enums
+This is a complete multi-screen Flutter application developed for an authentication assignment. The application includes user registration, login authentication, form validation, session persistence, dashboard navigation, and subject detail screens.
 
----
+The project follows a clean architecture style by separating UI screens, models, validators, enums, controllers, services, and reusable widgets.
 
 ## Features
 
-### Registration Screen
-- First name & last name input
-- Email validation
-- Gender selection (Enum)
-- Strong password validation
-- Confirm password check
-- Real-time validation
-- Disabled submit button until valid
+- User Registration Screen
+- Login Screen
+- Dashboard Screen
+- Subject Detail Screen
+- Real-time form validation
+- Email format validation
+- Password validation
+- Confirm password matching
+- Gender dropdown using enum
+- Authentication state management using enum
+- Show/hide password toggle
+- Remember Me functionality
+- User session persistence using SharedPreferences
+- Dynamic subject list
+- Navigation with data passing
+- Reusable custom text field widget
+- Separate controller and service layer
 
-### Login Screen
-- Email validation
-- Password visibility toggle
-- Remember Me checkbox
-- Session persistence using SharedPreferences
-- Navigation to Dashboard
+## Password Requirements
 
-### Dashboard Screen
-- User email display
-- Avatar placeholder
-- Subject list
-- Navigation to subject details
-- Logout functionality
+Password must contain:
 
-### Detail Screen
-- Subject banner image
-- Course description
-- Class schedule
-- Dynamic content per subject
+- Minimum 6 characters
+- At least 1 uppercase letter
+- At least 1 special character
 
----
+Example valid password:
 
-## State Management & Architecture
-- Controller-based architecture
-- Reusable Validator class
-- Enum usage for Gender and Auth State
-- Separation of UI and business logic
-
----
-
-## Technologies Used
-- Flutter
-- Dart
-- SharedPreferences
-- Material Design
-
----
-
-## How to Run the Project
-
-1. Clone repository
-2. Run:
-
----
-
-## Screenshots
-
-- Registration Screen  
-
-  ![Dashboard](assets/screenshots/registration.png)
-
-- Login Screen  
-
-  ![Dashboard](assets/screenshots/login.png)
-
-- Dashboard Screen  
-
-  ![Dashboard](assets/screenshots/dashboard.png)
-
-- Detail Screen  
-
-  ![Dashboard](assets/screenshots/detail.png)
-  
----
-
-## Author
-Muhammad Farrukh Iqbal
-
+```text
+shaheer@1122
