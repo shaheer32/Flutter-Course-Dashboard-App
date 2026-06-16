@@ -6,8 +6,8 @@ Flutter Course Dashboard App
 ---
 
 ## Student Information
-- Name: Muhammad Farrukh Iqbal
-- Student ID: SE221005
+- Name: Syed Muhammad Shaheer Kamal
+- Student ID: SE221026
 
 ---
 
